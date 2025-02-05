@@ -32,10 +32,13 @@ print(z)"""
 # make function for sentence
 # count words for user
 # state number of words
-def sentence(input):
-    print(input)
-sentence("Please make a sentence.")
+def sentence(input): # function for sentence, name of function is "sentence)"
+    print(input) # print the input for sentence
+sentence("Please make a sentence.") # print the input, input is in parentheses
 
+#DAY 2
+# SPLIT SPLITS THE SENTENCE INTO INDIVIDUAL WORDS INTEAD OF RECOGNIZING THE ENITRE PHRASE AS A WHOLE
+# LEN COUNTS THE LENGTH OF THE ENTIRE PHRASE
 
 
 
