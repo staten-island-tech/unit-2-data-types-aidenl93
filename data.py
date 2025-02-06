@@ -45,7 +45,7 @@ words = userin.split()
 print(len(words))"""
 
 weather = input("What's the weather like")
-if weather == "Cold" or "Snowing":
+if weather == "Cold": 
     print("correct")
 else:
     print("incorrect")
