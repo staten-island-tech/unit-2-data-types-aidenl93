@@ -40,5 +40,6 @@ sentence("Please make a sentence.") # print the input, input is in parentheses
 # SPLIT SPLITS THE SENTENCE INTO INDIVIDUAL WORDS INTEAD OF RECOGNIZING THE ENITRE PHRASE AS A WHOLE
 # LEN COUNTS THE LENGTH OF THE ENTIRE PHRASE
 
-sentence.split()
-print(len(sentence))
+userin = input("Please make a sentence")
+words = userin.split()
+print(len(words))
