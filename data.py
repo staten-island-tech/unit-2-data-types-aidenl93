@@ -47,5 +47,5 @@ print(len(words))"""
 weather = input("What's the weather like")
 if weather == "Cold": 
     print("correct")
-else:
+else: 
     print("incorrect")
