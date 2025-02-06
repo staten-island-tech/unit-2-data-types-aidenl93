@@ -44,8 +44,26 @@ sentence("Please make a sentence.") # print the input, input is in parentheses "
 words = userin.split()
 print(len(words))"""
 
-weather = input("What's the weather like")
+""" weather = input("What's the weather like?").strip()
 if weather == "Cold": 
     print("correct")
 else: 
-    print("incorrect")
+    print("incorrect") """
+
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+yes = input("enter number")
+if yes[-1] in "02468":
+    print("even")
+else:
+    print("odd")
