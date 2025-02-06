@@ -32,14 +32,20 @@ print(z)"""
 # make function for sentence
 # count words for user
 # state number of words
-def sentence(input): # function for sentence, name of function is "sentence)"
+""" def sentence(input): # function for sentence, name of function is "sentence)"
     print(input) # print the input for sentence
-sentence("Please make a sentence.") # print the input, input is in parentheses
+sentence("Please make a sentence.") # print the input, input is in parentheses """
 
 #DAY 2
 # SPLIT SPLITS THE SENTENCE INTO INDIVIDUAL WORDS INTEAD OF RECOGNIZING THE ENITRE PHRASE AS A WHOLE
 # LEN COUNTS THE LENGTH OF THE ENTIRE PHRASE
 
-userin = input("Please make a sentence")
+""" userin = input("Please make a sentence")
 words = userin.split()
-print(len(words))
+print(len(words))"""
+
+weather = input("What's the weather like")
+if weather == "Cold" or "Snowing":
+    print("correct")
+else:
+    print("incorrect")
