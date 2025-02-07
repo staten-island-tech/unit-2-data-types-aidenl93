@@ -62,8 +62,18 @@ elif temp == 68:
 else:
     print('cold') """
 
-yes = input("enter number")
+""" yes = input("enter number")
 if yes[-1] in "02468":
     print("even")
 else:
-    print("odd")
+    print("odd") """
+
+bill = input("tip me, options are 0%, 15%, 20%, 25%").strip().float()
+if bill == "0":
+    print("bad")
+if bill == "15":
+    print("okay")
+if bill == "20":
+    print("good")
+if bill == ("25"):
+    print("great")
