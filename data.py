@@ -68,7 +68,7 @@ if yes[-1] in "02468":
 else:
     print("odd") """
 
-def bill (tip):
+""" def bill (tip):
     if tip >= 0:
         print("bad")
     if tip >= 15:
@@ -78,4 +78,6 @@ def bill (tip):
     if tip >= 25:
         print("great")
 money = int(float(input("Please tip a certain amount")))
-bill(money)
+bill(money) """
+
+
