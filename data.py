@@ -77,7 +77,7 @@ else:
         print("good")
     if tip >= 25:
         print("great")
-money = int(float(input("Please tip a certain amount")))
+money = int(float(input("Please tip a certain amount, From 0-25%")))
 bill(money) """
 
 
