@@ -68,12 +68,14 @@ if yes[-1] in "02468":
 else:
     print("odd") """
 
-bill = input("tip me, options are 0%, 15%, 20%, 25%").strip().float()
-if bill == "0":
-    print("bad")
-if bill == "15":
-    print("okay")
-if bill == "20":
-    print("good")
-if bill == ("25"):
-    print("great")
+def bill (tip):
+    if tip >= 0:
+        print("bad")
+    if tip >= 15:
+        print("okay")
+    if tip >= 20:
+        print("good")
+    if tip >= 25:
+        print("great")
+money = int(float(input("Please tip a certain amount")))
+bill(money)
