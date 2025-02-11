@@ -80,4 +80,25 @@ else:
 money = int(float(input("Please tip a certain amount, From 0-25%")))
 bill(money) """
 
+"""def factors(x):
+    list = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            list.append(i)
+    return list 
 
+y = int(input("give number"))
+
+print(f"factors: {factors(y)}")"""
+
+def gcf(x,y):
+    while y != 0: 
+        x, y = y, x % y
+    return x
+
+bro = int(input("give num1"))
+bro2 = int(input("give num2"))
+
+bro3 = gcf(bro,bro2)
+print(f"the gcf is {bro3}")
+    
