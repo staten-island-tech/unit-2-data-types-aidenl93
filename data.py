@@ -52,7 +52,7 @@ else:
 
 
 """ x = "test"
-print(f"hello {x}") """
+print(f"hello {x}") """ 
 
 """ temp = 75
 if temp > 68:
