@@ -99,6 +99,6 @@ def gcf(x,y):
 bro = int(input("give num1"))
 bro2 = int(input("give num2"))
 
-bro3 = gcf(bro,bro2)
+bro3 = gcf(bro,bro2)    
 print(f"the gcf is {bro3}")
     
