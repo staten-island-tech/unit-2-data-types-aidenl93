@@ -91,14 +91,11 @@ y = int(input("give number"))
 
 print(f"factors: {factors(y)}")"""
 
-def gcf(x,y):
-    while y != 0: 
-        x, y = y, x % y
-    return x
-
-bro = int(input("give num1"))
-bro2 = int(input("give num2"))
-
-bro3 = gcf(bro,bro2)    
-print(f"the gcf is {bro3}")
+bro = input("give smaller num")
+bro2 = input("give bigger num")
+aa = []
+for i in range:
+    if bro % i == 0 and bro2 % i == 0:
+        aa.append()
+print(aa)
     
