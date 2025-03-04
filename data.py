@@ -94,8 +94,8 @@ print(f"factors: {factors(y)}")"""
 bro = input("give smaller num")
 bro2 = input("give bigger num")
 aa = []
-for i in range:
+for i in range(2,bro):
     if bro % i == 0 and bro2 % i == 0:
-        aa.append()
+        aa = i 
 print(aa)
     
